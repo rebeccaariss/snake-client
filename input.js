@@ -32,25 +32,30 @@ const handleUserInput = (key) => {
     setInterval(() => {
       connection.write("Move: up");
     }, 50);
-    // connection.write('Move: up');
   }
   if (key === "a") {
     setInterval(() => {
       connection.write("Move: left");
     }, 50);
-    // connection.write('Move: left');
   }
   if (key === "s") {
     setInterval(() => {
       connection.write("Move: down");
     }, 50);
-    // connection.write('Move: down');
   }
   if (key === "d") {
     setInterval(() => {
       connection.write("Move: right");
     }, 50);
-    // connection.write('Move: right');
+  }
+  if (key === "h") {
+    connection.write("Say: sssnake sssays hi");
+  }
+  if (key === "j") {
+    connection.write("Say: sssooo many sssnacks");
+  }
+  if (key === "k") {
+    connection.write("Say: sssooo little time");
   }
 };
 
