@@ -10,7 +10,11 @@ const connect = function() {
   const conn = net.createConnection({
     host: "localhost",
     port: 50541,
-  }, () => console.log("Connected to ssssserver 🐍"));
+  });
+
+  conn.on("connect", () => {
+    console.log("Connected to ssssserver 🐍");
+  });
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
