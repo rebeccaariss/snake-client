@@ -2,7 +2,6 @@ const net = require("net");
 
 // establishes a connection with the game server
 const connect = function() {
-  console.log("Connecting ...");
   // Note that object assigned to variable "conn" is an
   // instance of the Socket class in Node's net library.
   // See Socket methods in node docs:
