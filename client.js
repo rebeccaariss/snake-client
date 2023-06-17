@@ -14,6 +14,7 @@ const connect = function() {
 
   conn.on("connect", () => {
     console.log("Connected to ssssserver 🐍");
+    conn.write("Name: BEC");
   });
 
   // interpret incoming data as text
