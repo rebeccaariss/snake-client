@@ -10,13 +10,11 @@ Before you can run this client, you will need to be running the server side whic
 
 ## 👩🏼‍💻 Final Product
 
+You should see this in your terminal (right side) upon connection to the server:
 !["Image showing connection message 'Connected to ssssserver 🐍' in user terminal and game interface in server terminal"](./connection.png "Connection")
-*You should see this in your terminal upon connection to the server*
 
+Preview of the message that prints with "H" keypress:
 !["Image showing messge 'sssnake sssays hi' in game interface (server terminal)"](./salutation.png "Salutation")
-*Preview of the message that prints with "H" keypress*
-
-
 
 ## 🕹️ Getting Started
 
