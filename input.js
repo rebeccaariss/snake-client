@@ -21,11 +21,6 @@ const setupInput = function(conn) {
 // "Move: left" - move left one square (unless facing right)
 // "Move: right" - move left one square (unless facing left)
 
-// w = "Move: up"
-// a = "Move: left"
-// s = "Move: down"
-// d = "Move: right"
-
 const handleUserInput = (key) => {
   if (key === "\u0003") {
     process.exit();
