@@ -1,3 +1,5 @@
+const { UP, LEFT, DOWN, RIGHT, SALUTATION, OBSERVATION, LAMENTATION } = require("./constants");
+
 // Stores the active TCP connection object:
 let connection;
 
@@ -30,32 +32,32 @@ const handleUserInput = (key) => {
   }
   if (key === "w") {
     setInterval(() => {
-      connection.write("Move: up");
+      connection.write(UP);
     }, 50);
   }
   if (key === "a") {
     setInterval(() => {
-      connection.write("Move: left");
+      connection.write(LEFT);
     }, 50);
   }
   if (key === "s") {
     setInterval(() => {
-      connection.write("Move: down");
+      connection.write(DOWN);
     }, 50);
   }
   if (key === "d") {
     setInterval(() => {
-      connection.write("Move: right");
+      connection.write(RIGHT);
     }, 50);
   }
   if (key === "h") {
-    connection.write("Say: sssnake sssays hi");
+    connection.write(SALUTATION);
   }
   if (key === "j") {
-    connection.write("Say: sssooo many sssnacks");
+    connection.write(OBSERVATION);
   }
   if (key === "k") {
-    connection.write("Say: sssooo little time");
+    connection.write(LAMENTATION);
   }
 };
 
