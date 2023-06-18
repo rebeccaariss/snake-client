@@ -10,8 +10,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## 👩🏼‍💻 Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["You should see this in your terminal upon connection to the server"](./connection.png "Connection")
+!["Preview of the message that prints with 'H' keypress"](./salutation.png "Salutation")
 
 
 ## 🕹️ Getting Started
