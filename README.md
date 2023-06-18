@@ -2,7 +2,7 @@
 
 This project was created and published by me (@rebeccaariss) as part of my studies at Lighthouse Labs.
 
-Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by ‘eating’ pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth manoeuvres. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
+Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by "eating" pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth manoeuvres. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
 
 This is simply a multiplayer take on the genre.
 
@@ -10,8 +10,12 @@ Before you can run this client, you will need to be running the server side whic
 
 ## 👩🏼‍💻 Final Product
 
-!["You should see this in your terminal upon connection to the server"](./connection.png "Connection")
-!["Preview of the message that prints with 'H' keypress"](./salutation.png "Salutation")
+!["Image showing connection message 'Connected to ssssserver 🐍' in user terminal and game interface in server terminal"](./connection.png "Connection")
+*You should see this in your terminal upon connection to the server*
+
+!["Image showing messge 'sssnake sssays hi' in game interface (server terminal)"](./salutation.png "Salutation")
+*Preview of the message that prints with "H" keypress*
+
 
 
 ## 🕹️ Getting Started
