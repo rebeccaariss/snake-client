@@ -6,25 +6,25 @@ This is simply a multiplayer take on the genre.
 
 Before you can run this client, you will need to be running the server side which you can download and install from here. 
 
-## Final Product
+## Final Product 👩🏼‍💻
 
 !["screenshot description"](#)
 !["screenshot description"](#)
 
 
-## Getting Started
+## Getting Started 🕹️
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
 
-## Key Controls
-* `W`: Move up
-* `A`: Move left
-* `S`: Move down
-* `D`: Move right
+## Snake Key Controls 🐍
+* `W`:  Move up
+* `A`:  Move left
+* `S`:  Move down
+* `D`:  Move right
 
-- Customized messages:
+### Customized messages: 💬
 Press the following keys to trigger some fun messages from your snake 😜
-* `H`: Salutation
-* `J`: Observation
-* `K`: Lamentation
+* `H`:  Salutation
+* `J`:  Observation
+* `K`:  Lamentation
